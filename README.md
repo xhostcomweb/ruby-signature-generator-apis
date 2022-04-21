@@ -1,22 +1,21 @@
 # Sig Gen Caller - (SignatureGenerator apis)
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/signature_generator`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+Extendable Signature generator and caller/connector for APIs, web services, and other services.
+Uses Escher stateless signing and calling & connection type classes for API access in RubyRails.
 
 ## Installation
 
 Install the gem and add to the application's Gemfile by executing:
 
-    $ bundle add signature_generator
+    $ bundle add sig_gen_caller
 
 If bundler is not being used to manage dependencies, install the gem by executing:
 
-    $ gem install signature_generator
+    $ gem install sig_gen_caller
 
 ## Usage
 
-TODO: Write usage instructions here
+TODO: Write usage instructions here -soon
 
 ## Development
 
