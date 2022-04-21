@@ -10,5 +10,6 @@ Escher::RackMiddleware.config do |c|
   c.add_credential_updater { Escher::Keypool.new.get_key_db }
 end
 
+
 use Escher::RackMiddleware
 run SignatureGenerator
