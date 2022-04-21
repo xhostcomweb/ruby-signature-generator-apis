@@ -1,8 +1,7 @@
 # frozen_string_literal: true
 
 require_relative "signature_generator/version"
-require_relative "middleware/rack_middleware"
-
+require_relative "signature_generator/escher_loader"
 
 module SignatureGenerator
   class Error < StandardError; end
