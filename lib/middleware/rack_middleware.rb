@@ -1,5 +1,8 @@
 # frozen_string_literal: true
 
+require "escher"
+require "rack"
+require "escher-keypool"
 require "escher/rack_middleware"
 
 Escher::RackMiddleware.config do |c|
@@ -11,5 +14,3 @@ Escher::RackMiddleware.config do |c|
 end
 
 
-use Escher::RackMiddleware
-run SignatureGenerator

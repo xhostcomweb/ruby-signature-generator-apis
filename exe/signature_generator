@@ -2,3 +2,5 @@
 # frozen_string_literal: true
 
 require "signature_generator"
+use Escher::RackMiddleware
+run SignatureGenerator
