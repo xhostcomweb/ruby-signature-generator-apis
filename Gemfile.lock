@@ -2,6 +2,7 @@ PATH
   remote: .
   specs:
     signature_generator (0.1.0)
+      escher
       escher-keypool (~> 0.0.1)
       escher-rack_middleware (~> 0.3.5)
 
@@ -58,6 +59,7 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
+  escher
   escher-keypool (~> 0.0.1)
   escher-rack_middleware (~> 0.3.5)
   rake (~> 13.0)

@@ -32,6 +32,7 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
 
   # Escher Stateless Signing gem dependency
+  spec.add_dependency "escher"
   spec.add_dependency "escher-keypool", "~> 0.0.1"
   spec.add_dependency "escher-rack_middleware", "~> 0.3.5"
 end
