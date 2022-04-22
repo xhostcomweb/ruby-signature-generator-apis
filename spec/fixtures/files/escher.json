@@ -1,0 +1,19 @@
+{
+  "add_escher_authenticator": {
+    "type": "object",
+    "properties": {
+      "add_escher_authenticator": {
+        "type": "object"
+      }
+    }
+  },
+  "add_credential_updater": {
+    "type": "object",
+    "properties": {
+      "add_credential_updater": {
+        "type": "object"
+      }
+    }
+  }
+}
+

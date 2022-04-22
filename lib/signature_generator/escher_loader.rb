@@ -1,14 +1,20 @@
 # frozen_string_literal: true
 
-require_relative "../middleware/rack_middleware"
-
 module SignatureGenerator
   class EscherLoader
     def initialize(path)
-      @path = path
+      # path = File.expand_path(path)
+      # @path = path
     end
-    # { File.expand_path("../../lib/middleware/rack_middleware.rb", __dir__) }
-    #def load; end
+
+
+    # def call(env)
+    # if env["PATH_INFO"] == @path
+    #  [200, { "Content-Type" => "application/json" }, [escher_json]]
+    # else
+    #   @app.call(env)
+    #  end
     # end
+
   end
 end
