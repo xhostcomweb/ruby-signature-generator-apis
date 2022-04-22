@@ -3,10 +3,10 @@
 RSpec.describe SignatureGenerator::EscherLoader do
   let(:escher_loader) { described_class.new(path) }
   let(:path) { File.expand_path("spec/fixtures/files/escher.json") }
-  let(:escher_json) { JSON.parse(File.read(path)) }
+  let(:escher_json) { File.read(path) }
   describe "#escher_loader" do
     it "reads sample file" do
-      expect(escher_json).read.to eq(
+      expect(escher_json).to eq(
         {
           "add_escher_authenticator": {
             "type": "object",
